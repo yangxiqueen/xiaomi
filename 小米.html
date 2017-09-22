@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="">
+</head>
+<style>
+  *{
+  	margin:0; padding:0; list-style: none;
+  }
+  .product-category{
+  	width: 100%; height: auto; background: #e0e0e0;
+  }
+  .category{
+  	width: 1226px; height: auto; background: #fff; margin: 0 auto;
+  }
+  .categories{
+  	width: 100%; height: 694px; background: rgba(169,35,13,0.3);
+  }
+  .catg-top{
+  	width: 100%; height: 40px; padding-top: 40px; background:rgba(245,237,85,0.4); 
+  }
+  .catg-bom{
+  	width: 100%; height: 614px; background:rgba(237,85,85,0.4);
+  }
+  .catg-left{
+  	width: 234px; height: 100%; float: left; background: red;
+  }
+  .catg-right{
+  	width: 978px; height: 100%; float: right; background: rgba(255,255,0,0.3);
+  }
+  .catboxL{
+  	width: 43px; height: 30px; font-size: 20px;
+  }
+  .catboxR{
+	width: auto; height: 24px; float: right;
+  }
+  .catboxR>li{
+  	width: auto; height: 20px; display: inline-block; float: left;
+  	margin-left: 32px; padding-bottom: 2px; cursor: pointer;
+  }
+  .catboxR span{
+	font-size: 16px; line-height: 20px; color: #424242;
+  }
+</style>
+<body>
+	<!-- 产品分类 -->
+   <div class="product-category">
+	  <ul class="category">
+	  	<li class="categories">
+		    <!-- 家电 -->
+		    <div class="catg-top">
+		    	<span class="catboxL">家电</span>
+		    	<ul class="catboxR">
+		    		<li>
+		    		    <!-- 热门 -->
+		    		    <span>热门</span>
+		    		    <div class="card"></div>
+		    		</li>
+		    		<li>
+						<!-- 电视影音 -->
+						<span>电视影音</span>
+						<div class="card"></div>
+		    		</li>
+		    		<li>
+						<!-- 电脑 -->
+						<span>电脑</span>
+						<div class="card"></div>
+		    		</li>
+		    		<li>
+						<!-- 家居 -->
+						<span>家居</span>
+						<div class="card"></div>
+		    		</li>
+		    	</ul>
+		    </div>
+		    <div class="catg-bom">
+		    	<div class="catg-left"></div>
+		    	<div class="catg-right"></div>
+		    </div>
+	  	</li>
+	  </ul>
+   </div>
+</body>
+</html>
